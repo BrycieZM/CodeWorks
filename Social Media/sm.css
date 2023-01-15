@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+}
+
+.sm {
+    width: 260px;
+    height: 90px;
+    border-radius: 20px;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 35px;
+    transition: width 300ms, height 300ms, background-color 300ms;
+    transition-duration: 300ms;
+    background-color: #c5dbd0;
+    -webkit-text-stroke: 1.5px #c5dbd0;
+}
+
+.sm:hover {
+    width: 280px;
+    height: 130px;
+    background-color: white;
+    -webkit-text-stroke: 1.5px #c5dbd0;
+    cursor: pointer;
+}
