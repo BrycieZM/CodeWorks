@@ -12,7 +12,7 @@ body {
     text-align: center;
 }
 
-#smButton {
+.optButtons {
     width: 240px;
     height: 90px;
     border-radius: 20px;
@@ -24,7 +24,7 @@ body {
     -webkit-text-stroke: 1.5px #c5dbd0;
 }
 
-#smButton:hover {
+.optButtons:hover {
     width: 280px;
     height: 130px;
     background-color: white;
